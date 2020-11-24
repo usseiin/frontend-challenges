@@ -18,7 +18,7 @@ body {
 .container {
     text-align: center;
     height: 600px;
-    width: 1440px;
+    width: 100%;
     overflow: hidden;
     background: right 50vw bottom 30vh no-repeat url(images/bg-pattern-top.svg), 51vw 40vh no-repeat url(images/bg-pattern-bottom.svg) hsl(185, 75%, 39%);
     font-size: 18px;
