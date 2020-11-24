@@ -1,0 +1,133 @@
+        @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+        
+        * {
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+        
+        html,
+        body {
+            font-size: 15px;
+            width: 1440px;
+            font-family: "Spartan", sans-serif, serif;
+            color: hsl(300, 43%, 22%);
+            margin: 0;
+            padding: 0;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .container {
+            background-color: rgb(255, 255, 255);
+            display: inline-block;
+            overflow: hidden;
+            margin: 100px 150px;
+        }
+        
+        .row1-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+        
+        .row1col1 {
+            width: 400px;
+        }
+        
+        .row1col1 h1 {
+            font-size: 2.5em;
+        }
+        
+        .row1col1 p {
+            font-size: .85em;
+            color: hsl(303, 10%, 53%);
+            position: relative;
+            top: -12px;
+        }
+        
+        .row1col2 {
+            font-size: .75em;
+            display: flexbox;
+        }
+        
+        .row2 {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .row2 img {
+            border-radius: 50%;
+            margin-right: 25px;
+            width: 45px;
+        }
+        
+        .row2col {
+            width: 360px;
+            background: hsl(300, 43%, 22%);
+            padding: 34px;
+            font-size: .85em;
+        }
+        
+        .row1col2 div {
+            background-color: hsl(300, 24%, 96%);
+            height: 50px;
+            padding: 17px 0 17px 40px;
+            margin: 14px 0;
+            width: 450px;
+        }
+        
+        .star-text3 {
+            position: relative;
+        }
+        
+        .star-text2 {
+            position: relative;
+            right: 60px;
+        }
+        
+        .star-text1 {
+            position: relative;
+            right: 120px;
+        }
+        
+        .row2col2 {
+            position: relative;
+            display: flexbox;
+            top: 16px;
+            margin: 0 34px;
+            align-items: center;
+        }
+        
+        .row2col3 {
+            position: relative;
+            top: 32px;
+        }
+        
+        .col-div {
+            display: flex;
+            align-items: center;
+        }
+        
+        .color-pink {
+            color: hsl(333, 80%, 67%);
+        }
+        
+        .row2col p {
+            color: hsl(0, 0%, 100%);
+        }
+        
+        .color-w {
+            color: hsl(0, 0%, 100%)
+        }
+        
+        .profile {
+            margin: 3px 0;
+        }
